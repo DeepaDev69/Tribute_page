@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A Tribute</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script>
+            function toggle() {
+                elem = document.getElementById("highlights");
+                if(elem.style.display === "none"){
+                    elem.style.display = "block"; 
+                    elem.scrollIntoView();
+                }
+                    
+                else
+                    elem.style.display = "none";
+
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card" style=margin:20px;>
+                <div class="card-header" style="font-family: Garamond;background-color:rgba(241, 162, 131, 0.801)">
+                    
+                            <h2 style="color: darkslategray;" class="text-sm-center">Avul Pakir Jainulabdeen Abdul Kalam</h2>
+                        
+                      
+                            <h3 style="color: darkslategray;" class="text-sm-center">1931-2015</h3>
+                        
+                      <div class="row">
+                        <div class="col-sm-4"></div>
+                        <div class="col-sm-4">
+                            <img src="kalam.jpg" class="mx-auto d-block rounded-circle" alt="Abdul Kalam" height="300" width=300>
+                        </div>
+                      </div> 
+                </div>
+                <div class="card-body" class="d-flex justify-content-center" style="background-color:rgb(211, 206, 211);">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: black;">
+                            
+                            Avul Pakir Jainulabdeen Abdul Kalam (/ˈæbdəl kəˈlɑːm/; 15 October 1931 – 27 July 2015) was an Indian 
+                            aerospace scientist and politician who served as the 11th President of India from 2002 to 2007. He was born and raised in 
+                            Rameswaram, Tamil Nadu and studied physics and aerospace engineering. He spent the next four decades as a scientist and 
+                            science administrator, mainly at the Defence Research and Development Organisation (DRDO) and Indian Space Research 
+                            Organisation (ISRO) and was intimately involved in India's civilian space programme and military missile development 
+                            efforts. He thus came to be known as the Missile Man of India for his work on the development of ballistic missile and launch 
+                            vehicle technology. He also played a pivotal organisational, technical, and political role in India's Pokhran-II 
+                            nuclear tests in 1998, the first since the original nuclear test by India in 1974.
+                            
+                        </div>
+                    </div> 
+                
+                    
+                    <div class="row" style="margin-top: 10px;">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10" >
+                            <h4 onclick="toggle()" style="font-family: Garamond;">Highlights:
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </h4>
+
+                            <div id="highlights" style="display: none; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+                                <ul style="list-style-type:square; color: black;">
+                                    <li>1931: Born to a Tamil Muslim family in the pilgrimage centre on Pamban Island, Rameswaram, Tamil Nadu</li>
+                                    <li>1954: Graduated from Saint Joseph's College, Tiruchirappalli</li>
+                                    <li>1960: Joined the Aeronautical Development Establishment of the Defence Research and Development Organisation(DRDO)</li>
+                                    <li>1981: received Padma Bhushan, the third-highest civilian award in the Republic of India, preceded by the Bharat Ratna and the Padma Vibhushan.</li>
+                                    <li>1990: received Padma Vibhushan, the second-highest civilian award of the Republic of India, second only to the Bharat Ratna.</li>
+                                    <li>1997: Kalam received Bharat Ratna, the highest civilian award of the Republic of India.</li>
+                                    <li>2002: Elected as 11th president of India</li>
+                                    <li>2015: Kalam travelled to Shillong to deliver a lecture on "Creating a Livable Planet Earth" at the Indian Institute of Management Shillong. 
+                                        While climbing a flight of stairs, he experienced some discomfort, but was able to enter the auditorium after a brief rest. 
+                                        At around 6:35 p.m. IST, only five minutes into his lecture, he collapsed. He was rushed to the nearby Bethany Hospital in 
+                                        a critical condition; upon arrival, he lacked a pulse or any other signs of life. Despite being placed in the intensive care unit, 
+                                        Kalam was confirmed dead of a sudden cardiac arrest at 7:45 p.m IST. His last words, to his aide Srijan Pal Singh, were reportedly: 
+                                        "Funny guy! Are you doing well?"
+                                    </li>
+                                </ul>                   
+
+                                
+                                    <p style="font-size: small;" class="text-sm-center"><em>Read more about APJ Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Wikipedia</a></em></p>
+                                    
+
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
